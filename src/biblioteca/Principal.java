@@ -54,6 +54,7 @@ public class Principal {
                         System.out.println("Pais de origen: ");
                         String pais= scan.nextLine();
                         autores[i]= new Autor(nombreAutor,pais);
+                        libros[i].setAutor(autores);
 
                         libros[i]= new Libro(nombrel,autores,anio,favoritoLibro);
 
